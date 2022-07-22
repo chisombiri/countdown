@@ -6,14 +6,6 @@ import Confetti from 'react-confetti'; //importing Confetti for page beautififca
 
 //Using functional component with hooks
 const App = () => {
-  // const [height, setHeight] = useState(null);
-  // const [width, setWidth] = useState(null);
-  // const confettiRef = useRef(null);
-
-  // useEffect(() => {
-  //   setHeight(confettiRef.current.clientHeight);
-  //   setWidth(confettiRef.current.clientWidth);
-  // }, []);
 
   //setting width and height for confetti
   const { width, height } = useWindowSize()
