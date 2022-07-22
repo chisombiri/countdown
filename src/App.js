@@ -1,6 +1,6 @@
 import './App.css';
 import './style/Countdown.css';
-import Countdown from './components/Countdown';
+import Countdown from './components/countdown/Countdown';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1>Countdown</h1>
       </header>
       <div className="content">
-        <Countdown date='2020-12-24T00:00:00' />,
+        <Countdown />,
       </div>
     </div>
   );
