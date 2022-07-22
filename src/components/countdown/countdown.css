@@ -1,0 +1,38 @@
+/* styling initial body header */
+.timer div:first-child {
+    text-align: center;
+}
+
+/* styling the calendar icon */
+.calender-icon {
+    margin-top: 1rem;
+    font-size: 8vh;
+    color: #9c27b0;
+}
+
+/* styling the box container for the countdown */
+.timer div:last-child {
+    border: 1px solid #9c27b0;
+    border-radius: 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin-top: 1em;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #9c27b0;
+}
+
+/* styling the countdown numbers */
+section p:first-child{
+    font-size: 2.4rem;
+}
+
+/* styling the colon symbols */
+.timer div:last-child span {
+    font-size: 2rem;
+}
